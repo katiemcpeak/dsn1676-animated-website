@@ -5,6 +5,8 @@
 	 viewBox="0 0 792 612" style="enable-background:new 0 0 792 612;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);stroke:#010101;stroke-miterlimit:10;}
+	.st1{opacity:0.97;}
+	.st2{opacity:4.000000e-02;fill:#FFFFFF;}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="83.5" y1="304.4999" x2="713.5" y2="304.4999" gradientTransform="matrix(-4.489659e-11 1 1 4.489659e-11 92 -92)">
 	<stop  offset="0" style="stop-color:#2BACE2"/>
@@ -16,6 +18,20 @@
 	<stop  offset="0.7515" style="stop-color:#2E368F"/>
 </linearGradient>
 <rect x="-8.5" y="-8.5" class="st0" width="810" height="630"/>
+<g class="st1">
+	<circle class="st2" cx="119" cy="199" r="39"/>
+	<circle class="st2" cx="173" cy="104" r="15"/>
+	<circle class="st2" cx="188" cy="297" r="15"/>
+	<circle class="st2" cx="107" cy="400" r="27"/>
+	<circle class="st2" cx="726" cy="439" r="27"/>
+	<circle class="st2" cx="618" cy="322" r="15"/>
+	<circle class="st2" cx="699" cy="225" r="39"/>
+	<circle class="st2" cx="611.9" cy="104" r="15"/>
+	<circle class="st2" cx="454.1" cy="561.5" r="27"/>
+	<circle class="st2" cx="346.1" cy="444.5" r="15"/>
+	<circle class="st2" cx="427.1" cy="347.5" r="39"/>
+	<circle class="st2" cx="340" cy="226.5" r="15"/>
+</g>
 <g>
 </g>
 <g>
