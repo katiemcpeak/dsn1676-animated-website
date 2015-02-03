@@ -39,8 +39,8 @@ h1 {
 
 .seahorse:hover {
     opacity: 1;
-    background-color: #fff;
-    color: black;
+    background-color: #3366CC;
+    color: blue;
 }
 
 .bubbles {
