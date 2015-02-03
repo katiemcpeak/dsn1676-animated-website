@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: 'Chewy', cursive;
 }
 
 .ocean {
@@ -14,6 +15,21 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+h1 { 
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 210px;
+}
+
+.seahorse {
+    position: absolute;
+    top: 190px;
+    left: 245px;
+    width: 100px;
+    height: 100px;
 }
 
 .bubbles {
