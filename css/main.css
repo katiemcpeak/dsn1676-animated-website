@@ -64,6 +64,8 @@ h1 {
     position: absolute;
     top: 100px;
     left: 210px;
+    -webkit-animation: scale 6s ease-in-out alternate infinite;
+    animation: scale 6s ease-in-out alternate infinite;
 }
 
 .seahorse {
@@ -76,6 +78,8 @@ h1 {
     left: 200px;
     width: 200px;
     height: 200px;
+    -webkit-animation: scale 6s ease-in-out alternate infinite;
+    animation: scale 6s ease-in-out alternate infinite;
 }
 
 .seahorse:hover {
