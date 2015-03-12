@@ -1,158 +1,134 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
     box-sizing: border-box;
-    font-family: 'Chewy', cursive;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
 
-    width: 100%;
-    height: 100vh;
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
-    color: white;
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
-.billboard {
-    position: relative;
-    padding-bottom: 60%;
-    overflow: hidden;
+.header {
+    background-color: orange;
 }
 
-.ocean {
-    background-image: url(../images/ocean.svg);
-    background-repeat: no-repeat;
+.head-wrap {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.background {
+    background-image: url(../img/ocean.svg);
     background-size: cover;
-    width: 100%;
-    height: 100%;
-    -webkit-animation: scale 6s ease-in-out alternate infinite;
-    animation: scale 6s ease-in-out alternate infinite;
-    position: absolute;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.menu {
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    border-radius: 50%;
-    width: 3.5em;
-    line-height: 3.5em;
-    display: inline-block;
-    text-align: center;
-    transition: all 0.2s linear;
-}
-
-.button {
-    text-align: center;
-    margin: 1em;
-    padding: 1em;
-    position: absolute;
-    z-index: 10;
-}
-
-.menu:hover {
-    opacity: 1;
-    background-color: black;
-    color: white;
-}
-
-h1 { 
-    color: white;
-    position: absolute;
-    top: 100px;
-    left: 210px;
-    -webkit-animation: scale 6s ease-in-out alternate infinite;
-    animation: scale 6s ease-in-out alternate infinite;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding-top: 50%;
+    padding-bottom: 20%;
+    bottom: 0;
 }
 
 .seahorse {
-    background-image: url("../images/seahorse-copy.svg");
-    background-repeat: no-repeat;
-    background-size: 200px 400px;
-    background-position: center top;
+    width: 40%;
     position: absolute;
-    top: 190px;
-    left: 200px;
-    width: 200px;
-    height: 200px;
-    -webkit-animation: scale 6s ease-in-out alternate infinite;
-    animation: scale 6s ease-in-out alternate infinite;
+    left: 30%;
+    bottom: 100;
+    -webkit-animation: seahorse-appear 3s ease forwards infinite ;
+    animation: seahorse-appear 3s ease forwards infinite ;
 }
 
-.seahorse:hover {
-    background-position: center bottom;
- }
+@-webkit-keyframes seahorse-appear {
+    
+    90% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    
+    80% {
+        -webkit-transform: translate(42%,-18%) rotate(5deg);
+    }
+    
+     90% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    
+    80% {
+        transform: translateY(0px) rotate(5deg);
+    }
+ 
+}
+
+@keyframes seahorse-appear {
+    
+    90% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    
+    80% {
+        transform: translate(42%,-33%) rotate(5deg);
+    }
+   
+    90% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    
+     80% {
+        transform: translateY(0px) rotate(5deg);
+    }
+ 
+}
 
 .bubbles {
+    width: 10%;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 100px;
-    left: 400px;
-    -webkit-animation: bounce 8s ease-in-out alternate infinite;
-    animation: bounce 8s ease-in-out alternate infinite;
-    position: absolute;
+    bottom: 0;
+    left: 11%;
+    -webkit-animation: bubbles 2s ease-in-out infinite alternate;
+    animation: bubbles 2s ease-in-out infinite alternate;
 }
 
-.bubblesflipped {
+.bubbles2 {
+    width: 10%;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 100px;
-    left: 100px;
-    -webkit-animation: bounce 8s ease-in-out alternate infinite;
-    animation: bounce 8s ease-in-out alternate infinite;
-    position: absolute;
+    bottom: 0;
+    left: 80%;
+    -webkit-animation: bubbles 2s ease-in-out infinite alternate;
+    animation: bubbles 2s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes bounce {
 
-    0% {
-      -webkit-transform: translateY(0px);    
-    }
+@-webkit-keyframes bubbles {
     
-    50% {
-      -webkit-transform: translateY(100px);    
-    }
-        
-}
-
-@keyframes bounce {
-
     0% {
-      transform: translateY(0px);    
-    }
-    
-    50% {
-      transform: translateY(100px);    
-    }
-        
-}
-
-
-@-webkit-keyframes scale {
-
-    0% {
-      -webkit-transform: scale(1,1);    
+        -webkit-transform: translate(0,-100%);
     }
     
     100% {
-      -webkit-transform: scale(1.1,1.1);    
+        -webkit-transform: translate(0,-190%);
     }
-    
 }
 
-@keyframes scale {
-
+@keyframes bubbles {
+    
     0% {
-      transform: scale(1,1);    
+        transform: translate(0,-160%);
     }
     
     100% {
-      transform: scale(1.1,1.1);    
+        transform: translate(0,-230%);
     }
-    
 }
