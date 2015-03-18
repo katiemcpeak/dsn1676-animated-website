@@ -217,6 +217,7 @@ h1 {
   background-image: url(../images/blowfish.svg);
   background-repeat: no-repeat;
   opacity: 0;
+  -webkit-transition: all 200ms linear; 
   transition: all 200ms linear;    
 }
 
@@ -257,10 +258,12 @@ h1 {
   background-image: url(../images/blowfishblue.svg);
   background-repeat: no-repeat;   
   z-index: 100;
+  -webkit-transition: all 200ms linear; 
   transition: all 200ms linear;     
 }
 
 .js-rotate {
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
@@ -273,9 +276,11 @@ h1 {
   background-image: url(../images/blowfishgreen.svg);
   background-repeat: no-repeat;   
   z-index: 100;
-  transition: all 200ms linear; 
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
 .js-rotate-left {
+    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
