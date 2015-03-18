@@ -6,26 +6,22 @@ $btnExpand.on('click', function () {
 });
 
 var $btnShowHide = $('.btn-show-hide');
-var $blowfish = $('.blowfish');
+var $blowFish = $('.blowfish');
 
-var $btnMove = $('.btn-move');
-var $blowfishblue = $('.blowfishblue');
+var $btnRotate = $('.btn-rotate');
+var $blowFishBlue = $('.blowfishblue');
 
-var $btnBounce = $('.btn-bounce');
-var $blowfishgreen = $('.blowfishgreen');
+var $btnRotateLeft = $('.btn-rotate2');
+var $blowFishGreen = $('.blowfishgreen');
 
 $btnShowHide.on('click', function () {
-    $blowfish.toggleClass('js-show-hide'); 
+    $blowFish.toggleClass('js-show-hide'); 
 });
 
-$btnMove.on('click', function () {
-    $blowfishblue.toggleClass('js-move'); 
+$btnRotate.on('click', function () {
+    $blowFishBlue.toggleClass('js-rotate'); 
 });
 
-$btnBounce.on('click', function () {
-    $blowfishgreen.addClass('js-circle-bounce'); 
-});
-
-$blowfishgreen.on ('webkitAnimationEnd animationend', function () {
-    $blowfishgreen.removeClass('js-circle-bounce');
+$btnRotateLeft.on('click', function () {
+    $blowFishGreen.toggleClass('js-rotate-left'); 
 });

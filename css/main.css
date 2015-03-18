@@ -212,8 +212,8 @@ h1 {
 .blowfish {
   height: 100px;
   display: inline-block;
-  top: calc(50% - 50px);
-  width: 200px;
+  top: calc(50% - 40px);
+  width: 80px;
   background-image: url(../images/blowfish.svg);
   background-repeat: no-repeat;
   opacity: 0;
@@ -232,7 +232,7 @@ h1 {
     border: none;
 }
 
-.btn-move {
+.btn-rotate {
     height: 34px;
     background-color: #4CA0BA;
     font-family: 'Chewy', cursive;
@@ -240,7 +240,7 @@ h1 {
     border: none;
 }
 
-.btn-bounce {
+.btn-rotate2 {
     height: 34px;
     background-color: #4CA0BA;
     font-family: 'Chewy', cursive;
@@ -255,70 +255,27 @@ h1 {
   width: 80px;
   display: inline-block;
   background-image: url(../images/blowfishblue.svg);
-  background-repeat: no-repeat;
-  transform: rotate(45deg);   
-  /*position: absolute;*/
+  background-repeat: no-repeat;   
   z-index: 100;
   transition: all 200ms linear;     
 }
 
-.js-move {
-    right: -200px;
+.js-rotate {
+    transform: rotate(45deg);
 }
 
 .blowfishgreen {
-  height: 100px;
-  top: calc(50% - 50px);
-  width: 100px;
+  height: 80px;
+  right: 2em;
+  top: calc(50% - 40px);
+  width: 80px;
   display: inline-block;
   background-image: url(../images/blowfishgreen.svg);
-  background-repeat: no-repeat;
-  border-radius: 50%;
+  background-repeat: no-repeat;   
+  z-index: 100;
+  transition: all 200ms linear; 
 }
 
-.js-circle-bounce {
-    -webkit-animation: circle-bounce 1s linear;
-    animation: circle-bounce 1s linear;
-}
-
-@-webkit-keyframes circle-bounce {
-    0% {
-        right: 30px; top: calc(50% - 20px);
-    }
-    20% {
-        right: 60px; top: calc(50% - 50px);
-    }
-    40% {
-        right: 90px; top: calc(50% - 30px);
-    }
-    60% {
-        right: 120px; top: calc(50% - 50px);
-    }
-    80% {
-        right: 150px; top: calc(50% - 30px);
-    }
-    100% {
-        right: 180px; top: calc(50% - 50px);
-    }
-}
-
-@keyframes circle-bounce {
-     0% {
-        right: 30px; top: calc(50% - 20px);
-    }
-    20% {
-        right: 60px; top: calc(50% - 50px);
-    }
-    40% {
-        right: 90px; top: calc(50% - 30px);
-    }
-    60% {
-        right: 120px; top: calc(50% - 50px);
-    }
-    80% {
-        right: 150px; top: calc(50% - 30px);
-    }
-    100% {
-        right: 180px; top: calc(50% - 50px);
-    }   
+.js-rotate-left {
+    transform: rotate(-45deg);
 }
