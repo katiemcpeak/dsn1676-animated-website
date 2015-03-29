@@ -90,16 +90,23 @@ h1 {
     overflow: hidden;
     z-index: 1;
     width: 100%;
-    padding-top: 25%;
+    padding-top: 10%;
     padding-bottom: 20%;
     bottom: 0;
 }
 
+.scrolldown {
+    width: 5%;
+    position: relative;
+    left: 48%;
+    top: 80px;
+}
+
 .seahorse {
     width: 20%;
-    position: absolute;
+    position: relative;
     left: 40%;
-    bottom: 100;
+    top: 30px;
     -webkit-animation: seahorse-appear 3s ease forwards infinite ;
     animation: seahorse-appear 3s ease forwards infinite ;
 }
@@ -283,4 +290,11 @@ h1 {
 .js-rotate-left {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
+}
+
+.scrollup {
+    width: 5%;
+    position: relative;
+    left: 48%;
+    top: 200px;
 }

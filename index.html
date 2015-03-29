@@ -15,7 +15,7 @@
     
         <div class="nav-bars unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-2">
             <a href="index.html">
-                <img class="logo push-0" src="images/logo.svg" alt="logo">
+                <a name="up"><img class="logo push-0" src="images/logo.svg" alt="logo"></a>
             </a>
         </div>
     
@@ -47,6 +47,10 @@
                 <div class="bubbles2">
                     <img src="images/bubblesflipped.svg" alt="bubblesflipped">
                 </div>
+                
+                <div class="scrolldown">
+                    <a href="#down"><img src="images/scrolldown.svg" alt="scrolldown"></a>
+                </div>
 
             </header>
         </div>
@@ -55,7 +59,7 @@
     <div class="grid">
         <div class="unit unit-xs-1 unit-s-1-3 unit-m-1-3 unit-l-1-3 gutter island">
             <section>
-                <button class="btn-show-hide">Click Me!</button>
+                <a name="down"><button class="btn-show-hide">Click Me!</button></a>
                 <div class="blowfish"></div>
             </section>
         </div>
@@ -76,7 +80,13 @@
         </div>
     </div>
     
+    <div class="scrollup">
+                    <a href="#up"><img src="images/scrollup.svg" alt="scrollup"></a>
+                </div>
+    
     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -25,3 +25,7 @@ $btnRotate.on('click', function () {
 $btnRotateLeft.on('click', function () {
     $blowFishGreen.toggleClass('js-rotate-left'); 
 });
+
+$('.scrolldown').localScroll();
+
+$('.scrollup').localScroll();
