@@ -29,3 +29,5 @@ $btnRotateLeft.on('click', function () {
 $('.scrolldown').localScroll();
 
 $('.scrollup').localScroll();
+
+$('.species').localScroll();
