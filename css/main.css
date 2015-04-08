@@ -298,3 +298,45 @@ h1 {
     left: 48%;
     top: 200px;
 }
+
+ .st0 {
+     fill:#F79421;
+ } 
+
+.st1 {
+    fill:#FFFFFF;
+}
+
+.spin-star {
+    width: 150px;
+    position: relative;
+    left: 45%;
+    top: 1px;
+}
+
+#starfish:hover {
+    -webkit-animation: starfish-rotate 3s ease infinite ;
+    animation: starfish-rotate 3s ease infinite ;
+}
+
+@keyframes starfish-rotate {
+    
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}  
+
+@-webkit-keyframes starfish-rotate {
+    
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}  
