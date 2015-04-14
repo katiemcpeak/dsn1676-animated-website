@@ -30,4 +30,8 @@ $('.scrolldown').localScroll();
 
 $('.scrollup').localScroll();
 
+$('.about').localScroll();
+
+$('.oceanography').localScroll();
+
 $('.species').localScroll();

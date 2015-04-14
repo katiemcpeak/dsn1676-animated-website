@@ -220,6 +220,18 @@ h1 {
 
 }   
 
+.photo {
+    background: url("../images/underwater-ocean-wallpaper-1920x1200-elphstone%20reef%20221.jpg") center center / cover no-repeat;
+    padding-top: 50%;
+    position: relative;
+}
+
+.photo2 {
+    background: url("../images/o-WORLD-OCEANS-DAY-2013-facebook.jpg") center center / cover no-repeat;
+    padding-top: 50%;
+    position: relative;
+}
+
 .blowfish {
   height: 100px;
   display: inline-block;
@@ -314,8 +326,9 @@ h1 {
 .spin-star {
     width: 150px;
     position: relative;
-    left: 45%;
-    top: 1px;
+    left: 42.5%;
+    top: 100px;
+    margin: none;
 }
 
 #starfish:hover {
