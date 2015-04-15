@@ -28,6 +28,7 @@ h2 {
 .body-copy {
     max-width: 800px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .header {
@@ -253,6 +254,29 @@ h1 {
     opacity: 1;
 }
 
+.btn-show-hide {
+    height: 34px;
+    background-color: #4CA0BA;
+    font-family: 'Chewy', cursive;
+    color: white;
+    border: none;
+}
+
+.btn-rotate {
+    height: 34px;
+    background-color: #4CA0BA;
+    font-family: 'Chewy', cursive;
+    color: white;
+    border: none;
+}
+
+.btn-rotate2 {
+    height: 34px;
+    background-color: #4CA0BA;
+    font-family: 'Chewy', cursive;
+    color: white;
+    border: none;
+}
 
 .blowfishblue {
   height: 80px;
@@ -308,7 +332,7 @@ h1 {
 .spinstar {
     width: 150px;
     position: relative;
-    left: 42.5%;
+    left: 40%;
     top: 10px;
     margin: none;
 }
@@ -343,8 +367,7 @@ h1 {
 .jelly {
     width: 150px;
     position: relative;
-    left: 42.5%;
+    left: 40%;
     top: 10px;
     margin: none;
-}
-    
+}   
