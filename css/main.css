@@ -253,29 +253,6 @@ h1 {
     opacity: 1;
 }
 
-.btn-show-hide {
-    height: 34px;
-    background-color: #4CA0BA;
-    font-family: 'Chewy', cursive;
-    color: white;
-    border: none;
-}
-
-.btn-rotate {
-    height: 34px;
-    background-color: #4CA0BA;
-    font-family: 'Chewy', cursive;
-    color: white;
-    border: none;
-}
-
-.btn-rotate2 {
-    height: 34px;
-    background-color: #4CA0BA;
-    font-family: 'Chewy', cursive;
-    color: white;
-    border: none;
-}
 
 .blowfishblue {
   height: 80px;
@@ -328,7 +305,7 @@ h1 {
     fill:#FFFFFF;
 }
 
-.spin-star {
+.spinstar {
     width: 150px;
     position: relative;
     left: 42.5%;
@@ -336,7 +313,7 @@ h1 {
     margin: none;
 }
 
-#starfish:hover {
+.js-active #starfish {
     -webkit-animation: starfish-rotate 3s ease infinite ;
     animation: starfish-rotate 3s ease infinite ;
 }
@@ -362,3 +339,12 @@ h1 {
         -webkit-transform: rotate(360deg);
     }
 }  
+
+.jelly {
+    width: 150px;
+    position: relative;
+    left: 42.5%;
+    top: 10px;
+    margin: none;
+}
+    
