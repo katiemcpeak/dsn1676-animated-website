@@ -25,6 +25,11 @@ h2 {
     color: orange;
 }
 
+.body-copy {
+    max-width: 800px;
+    text-align: center;
+}
+
 .header {
     background-color: #2F398D;
 }
@@ -327,7 +332,7 @@ h1 {
     width: 150px;
     position: relative;
     left: 42.5%;
-    top: 100px;
+    top: 10px;
     margin: none;
 }
 
