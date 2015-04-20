@@ -240,6 +240,7 @@ h1 {
 .blowfish {
   height: 100px;
   display: inline-block;
+  float: right;
   top: calc(50% - 40px);
   width: 80px;
   background-image: url(../images/blowfish.svg);
@@ -257,6 +258,7 @@ h1 {
     height: 34px;
     background-color: #4CA0BA;
     font-family: 'Chewy', cursive;
+    float: right;
     color: white;
     border: none;
 }
@@ -265,6 +267,7 @@ h1 {
     height: 34px;
     background-color: #4CA0BA;
     font-family: 'Chewy', cursive;
+    float: right;
     color: white;
     border: none;
 }
@@ -273,6 +276,7 @@ h1 {
     height: 34px;
     background-color: #4CA0BA;
     font-family: 'Chewy', cursive;
+    float: right;
     color: white;
     border: none;
 }
@@ -280,6 +284,7 @@ h1 {
 .blowfishblue {
   height: 80px;
   right: 2em;
+  float: right;
   top: calc(50% - 40px);
   width: 80px;
   display: inline-block;
@@ -298,6 +303,7 @@ h1 {
 .blowfishgreen {
   height: 80px;
   right: 2em;
+  float: right;
   top: calc(50% - 40px);
   width: 80px;
   display: inline-block;
@@ -379,10 +385,15 @@ h1 {
     .scrolldown {
         width: 10%;
         position: absolute;
-        top: 10px;
+        padding-top: 90px;
+        left: 45%;
     }
     
     .scrollup {
         width: 10%;
+        left: 45%;
     }
+    
+    .background {
+         padding-bottom: 40%;
 }
