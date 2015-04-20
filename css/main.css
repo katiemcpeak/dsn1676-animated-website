@@ -375,4 +375,14 @@ h1 {
     .btn-expand {
         padding-top: none; 
     }
+    
+    .scrolldown {
+        width: 10%;
+        position: absolute;
+        top: 10px;
+    }
+    
+    .scrollup {
+        width: 10%;
+    }
 }
