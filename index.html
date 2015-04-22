@@ -8,10 +8,16 @@
     <link href="css/main.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+    <link href="images/starfish.png" rel="shortcut icon">
 </head>
     
 <body>
-<main>
+
+    <ul class="skip-links">
+        <li><a href="#main">Jump to Main Content</a></li>
+        <li><a href="#navigation">Jump to Navigation</a></li>
+        <li><a href="#information">Jump to Information</a></li>
+    </ul>
     
         <a id="up">
             <a href="index.html">
@@ -22,7 +28,7 @@
     <img class="btn-expand" src="images/hamburger.svg" alt="toggle">
     <div class="navigation grid panel">
         <div class="nav-bars unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-            <nav role="navigation" id="nav">
+            <nav id="navigation" role="navigation">
                 <ul class="nav">
                     <li class="about"><a class="gutter-half pad-b" href="#about">About</a></li>
                     <li class="oceanography"><a class="gutter-half pad-b" href="#oceanography">Oceanography</a></li>
@@ -53,10 +59,10 @@
 
             </header>
         </div>
-    
+    <main id="main" role="main">
        <a id="about">
         <div class="gutter body-copy">
-            <p>
+            <p id="information" role="information">
                 <h2>About</h2>Oceans cover more than 70% of Earth’s surface. About 97% of Earth’s water is contained in oceans and seas. The five oceans—the Pacific, Atlantic, Indian, Southern, and Arctic—are all connected and form an enormous mass of water. Seas are smaller bodies of salty water within the oceans.   
             
 The oceans are salty, which makes them unsuitable for drinking. Most of the salt comes from minerals from rocks and soil that have been washed from the land and carried into the oceans by rivers. The minerals are mostly chloride and sodium, which combine to make salt. Most of our table salt comes from the oceans.
