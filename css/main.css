@@ -221,13 +221,7 @@ h1 {
 
 .js-panel-expand {
     max-height: 10em;
-}
-
-@media only screen and (min-width: 60em) {
-    
-    max-height: 40px;
-
-}   
+} 
 
 .photo {
     background: url("../images/underwater-ocean-wallpaper-1920x1200-elphstone%20reef%20221.jpg") center center / cover no-repeat;
@@ -378,12 +372,12 @@ h1 {
     position: relative;
     left: 40%;
     top: 10px;
-    margin: none;
+    margin: 0;
 }   
 
 @media only screen and (max-width: 30em) {
     .btn-expand {
-        padding-top: none; 
+        padding-top: 0; 
     }
     
     .scrolldown {
