@@ -40,9 +40,10 @@ h2 {
 }
 
 h1 {
-    color: orange;
+    color: #2F398D;
     text-align: center;
-    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .logo {
