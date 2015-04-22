@@ -418,4 +418,5 @@ h1 {
     
 .skip-links a:focus {
     top: 0;
+    outline: 3px solid orange;
 }
