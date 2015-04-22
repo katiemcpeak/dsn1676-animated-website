@@ -339,7 +339,7 @@ h1 {
     position: relative;
     left: 40%;
     top: 10px;
-    margin: none;
+    margin: 0;
 }
 
 .js-active #starfish {
